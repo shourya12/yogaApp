@@ -29,7 +29,7 @@ For subsequent months, users can log in and access the yoga registration page to
 # Backend: Java,SpringBoot
 # Database:MySQL
 
-ER Diagream
+ER Diagram
 
 ![image](https://github.com/shourya12/yogaApp/assets/39834612/29864649-f6d0-4e7a-861d-2bbf35dfee60)
 
