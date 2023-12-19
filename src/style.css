@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* Add Tailwind CSS classes */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles for the form */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #333;
+}
+
+.input-field {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
