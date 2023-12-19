@@ -34,7 +34,7 @@ function Deshboard() {
         event.preventDefault();
     
         // Make an HTTP POST request using Axios
-        await axios.post('http://localhost:8080/api/pay',yogadata)
+        await axios.post('https://yogabackend-production-8d16.up.railway.app/api/pay',yogadata)
         .then(function (response) {
             if(!response.data.user){
                 setUserPresent(false);

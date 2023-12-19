@@ -36,7 +36,7 @@ function AdmissionForm() {
       return;
     }
     // Make an HTTP POST request using Axios
-    await axios.post('http://localhost:8080/api/register', data)
+    await axios.post('https://yogabackend-production-8d16.up.railway.app/api/register', data)
     .then(function (response) {
       console.log(response);
 
